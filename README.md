@@ -1,6 +1,6 @@
- # modules.py
+ ># modules.py
 
->1. 用于配置
+> 用于配置
 ```python
     from pymysql import connect
     from pymysql import cursors
@@ -24,7 +24,7 @@
         print(result)
 ```
 
->2. 用户对象访问
+> 用户对象访问
 ```python
     conf.array = [{'dd': {'cc': {'ee': {'xx' : 'test'}}}}, {'a': 'b'}]
     conf.word = {'aa': 'bb'}
